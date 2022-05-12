@@ -45,5 +45,3 @@
             });
         }
     });
-
-    //end---show more less base on works content
