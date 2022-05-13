@@ -6,3 +6,6 @@ You only have to call function with the following paramaters:
 2) Which type of element inside container will be hidden
 3) How many items show at first
 4) How many items add to list every time "show more" is triggered
+
+
+In this case I used a list but you can target every element with/without a class/id.
