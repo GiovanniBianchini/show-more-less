@@ -6,5 +6,10 @@ $(document).ready(function () {
         3
     );
 
-    showMoreLess($('#second-cont'), 'li', 2, 2);
+    showMoreLess(
+        $('#second-cont'),
+        'li',
+        2,
+        2
+    );
 });
