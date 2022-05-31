@@ -37,7 +37,7 @@ function showMoreLess(starterElement, whichElementToHide, starterNumber, itemsSh
     initialElement.find('.showMoreLess').click(function () {
         //if counter is < than elements it means that there are other hidden elements, so it will show remaning elements
         if (counter < elementNumbers) {
-            counter = counter + itemsShowIcrementer;
+            counter = counter + showItemsincrementer;
             initialElement.find(elementToHide).slice(0, counter).show();
             initialElement.find('.showMoreLess').html('show more');
             if (counter >= elementNumbers) {
