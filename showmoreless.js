@@ -1,4 +1,15 @@
-function showMoreLess(starterElement, whichElementToHide, starterNumber, itemsShowIcrementer) {
+function showMoreLess(starterElement, whichElementToHide, starterNumber, itemsShowIcrementer){
+    //content
+    let initialElement = starterElement;
+
+    //define which element inside container you have to hide
+    let elementToHide = whichElementToHide;
+
+    //define initial element length
+    let elementNumbers = initialElement.querySelector(elementToHide).length;
+}
+
+/* function showMoreLess(starterElement, whichElementToHide, starterNumber, itemsShowIcrementer) {
     //content
     let initialElement = starterElement;
 
@@ -55,4 +66,4 @@ function showMoreLess(starterElement, whichElementToHide, starterNumber, itemsSh
             });
         }
     });
-}
+} */
