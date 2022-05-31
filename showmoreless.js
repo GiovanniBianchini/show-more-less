@@ -1,3 +1,5 @@
+// link utile
+// https://tobiasahlin.com/blog/move-from-jquery-to-vanilla-javascript/#:~:text=The%20equivalent%20to%20%24()%20or,call%20with%20a%20CSS%20selector.
 function showMoreLess(starterElement, whichElementToHide, starterNumber, itemsShowIcrementer){
     //content
     let initialElement = starterElement;
