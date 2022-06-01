@@ -1,5 +1,5 @@
 # show-more-less
-A simple JQuery script that allows you to decide how many elements to show initially, how many elements to show when clicking on "show more". When there aren't more hidden elements to show then the whole thing will collapse to the initial situation.
+A simple script that allows you to decide how many elements to show initially, how many elements to show when clicking on "show more". When there aren't more hidden elements to show then the whole thing will collapse to the initial situation.
 
 You only have to call function with the following paramaters:
 1) General container
