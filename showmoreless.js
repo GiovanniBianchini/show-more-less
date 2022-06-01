@@ -3,7 +3,7 @@
 
 function showMoreLess(starterElement, whichElementToHide, starterNumber, itemsShowIcrementer) {
     //content
-    let initialElement = starterElement;
+    let initialElement = document.getElementById(starterElement);
 
     //define which element inside container you have to hide
     let elementToHide = whichElementToHide;
