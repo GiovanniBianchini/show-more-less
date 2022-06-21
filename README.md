@@ -9,12 +9,3 @@ You only have to call function with the following paramaters:
 
 
 In this case I used a list but you can target every element with/without a class/id.
-
-Example:
-
-showMoreLess(
-    'first-cont', //general container with elements to hide inside
-    'li', //which element inside the above declared container hide
-    6, //how many elements show at first
-    3 //how many elements show every time "show more" button is triggered
-);
